@@ -7,12 +7,12 @@ public class ReverseString
     public static void main(String args[]){
         String str;
         String rStr;
-        Scanner bf=new Scanner(System.in);
+    //    Scanner bf=new Scanner(System.in);
          
         //input an integer number
-        System.out.print("Enter any string: ");
-        str=bf.nextLine();
-         
+  //      System.out.print("Enter any string: ");
+    //str=bf.nextLine();
+      str="Manisha";   
         //Reversing String
         rStr="";
         for(int loop=str.length()-1; loop>=0; loop--)
